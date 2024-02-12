@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+html {
+    background-color: #0D0D0D  !important;
+    overflow-x: hidden;
+}
+
+ /* #nav {
+  position: relative;
+  height: 10vh;
+  z-index: 10;
+} */
+
+#nav ul,
+li,
+a {
+  text-transform: uppercase;
+  font-family: Anton;
+} 
+
+/* #header {
+  height: 90vh;
+  
+} */
+
+#header #heroTexts h1 {
+  color: #f2b557;
+  font-family: Anton;
+  font-size: 116px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.753%; /* 138.914px */
+  letter-spacing: -2.32px;
+  text-transform: uppercase;
+}
+
+#header #heroTexts h2 {
+  color: #f2b557;
+  font-family: Anton;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.753%; /* 138.914px */
+  letter-spacing: -2.32px;
+  text-transform: uppercase;
+}
+
+#header #heroTexts p {
+  width: 342px;
+}
+
+#header #heroTexts p {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.38px;
+}
+
+#header .button {
+  border: 3px solid #f2b557;
+  border-radius: 100px;
+  width: 341px;
+  height: 61px;
+  outline-color: #f2b557;
+}
+
+#header .button .button-text {
+  color: #f2b557;
+  text-transform: uppercase;
+}
+
+#photo3 {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 9;
+  width: 529px;
+}
+
+#photo2 {
+  position: absolute;
+  right: 70px;
+  top: 500px;
+  z-index: 9;
+  width: 338px;
+}
+
+#photo1 {
+  position: absolute;
+  right: 450px;
+  top: 470px;
+  z-index: 9;
+  width: 295px;
+}
+
+#beyourownstar {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  background-color: #f2b557;
+}
+
+#beyourownstar  h1.beyourown  {
+    color: #0D0D0D;
+  font-family: Anton;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.753%; /* 138.914px */
+  letter-spacing: -2.32px;
+  text-transform: uppercase;
+  top: 200px;
+  
+  z-index: 1;
+}
+
+#beyourownstar  h1.star  {
+    color: #0D0D0D;
+  font-family: Anton;
+  font-size: 500px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.753%; /* 138.914px */
+  letter-spacing: -2.32px;
+  text-transform: uppercase;
+  position: relative;
+  top: 100px;
+  z-index: 10;
+}
+
+
+
+#beyourownstar img {
+   z-index: 2;
+   position: relative;
+   top: -840px;
+   left: 300px;
+width: 1000px;
+}
+
+
+
